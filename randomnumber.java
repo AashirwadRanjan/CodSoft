@@ -11,8 +11,7 @@ public class GFG {
 		Scanner sc = new Scanner(System.in);
 
 		
-		int number = 1 + (int)(100
-							* Math.random());
+		int number = 1 + (int)(100* Math.random());
 
 
 		int K = 5;
@@ -25,7 +24,7 @@ public class GFG {
 			+ "Guess the number"
 			+ " within 5 trials.");
 
-		// Iterate over K Trials
+	
 		for (i = 0; i < K; i++) {
 
 			System.out.println(
